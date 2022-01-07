@@ -1,0 +1,11 @@
+CLS
+INPUT "ENTER ANY SENTENCE"; S$
+W = 1
+FOR I = 1 TO LEN(S$)
+B$ = MID$(S$, I, 1)
+IF B$ = " " THEN
+W = W + 1
+NEXT I
+END IF
+PRINT "Total words="; W
+END
