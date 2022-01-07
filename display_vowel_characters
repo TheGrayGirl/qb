@@ -1,0 +1,10 @@
+CLS
+INPUT "ENTER ANY SENTENCE"; S$
+FOR I = 1 TO LEN(S$)
+B$ = MID$(S$, I, 1)
+C$ = UCASE$(B$)
+IF C$="A" OR C$="E" OR C$="I" OR C$="O" OR C$="U" THEN
+PRINT B$
+END IF
+NEXT I
+END
