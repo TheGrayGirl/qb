@@ -1,0 +1,7 @@
+CLS
+sum = 0
+FOR I = 1 TO 100
+sum = sum + I
+NEXT I
+PRINT sum
+END
